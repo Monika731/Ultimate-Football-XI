@@ -1,0 +1,71 @@
+.create-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .create-inner {
+    text-align: center;
+    color: white;
+  }
+  
+  .create-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .team-illustration {
+    width: 100px;
+    margin-bottom: 2rem;
+  }
+  
+  .create-form {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  
+  .form-section {
+    background: #444;
+    padding: 1.5rem;
+    border-radius: 10px;
+    min-width: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-section label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-section input,
+  .form-section select {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #222;
+    color: white;
+  }
+  
+  .submit-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  
+  .submit-section button {
+    padding: 0.75rem 2rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

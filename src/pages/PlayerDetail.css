@@ -1,0 +1,47 @@
+.player-detail-container {
+    color: white;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .player-name {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .player-info-card {
+    background: #2a2a2a;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+  
+  .player-info-card p {
+    margin: 0.5rem 0;
+  }
+  
+  .player-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .edit-btn, .back-btn {
+    padding: 0.6rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  .edit-btn {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .back-btn {
+    background-color: #1e90ff;
+    color: white;
+  }
+  
